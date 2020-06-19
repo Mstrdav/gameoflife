@@ -50,6 +50,9 @@ function draw() {
             frameRate(frameR);
         }
         evolution();
+        if (viv == 0) {
+            evolutionEnCours = false;
+        }
     }
 }
 
